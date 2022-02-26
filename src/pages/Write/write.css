@@ -1,0 +1,53 @@
+.write{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 5px;
+
+}
+.write img{
+    width: 60%;
+    height: 40vh;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.writeForm{
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+}
+.writeFormGroup{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.writeFormGroup input,textarea{
+    width: 100%;
+    border: none;
+    margin-left: 10px;
+}
+.writeFormGroup input,textarea:focus{
+    outline: none;
+}
+.writeForm button{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    background-color: rgb(34, 105, 56);
+    cursor: pointer;
+}
+.writeFormGroup i{
+    font-size: 30px;
+    cursor: pointer;
+}
+.writeFormGroup textarea{
+    padding-left: 30px;
+}

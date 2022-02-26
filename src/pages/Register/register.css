@@ -1,0 +1,54 @@
+.login{
+    background-image: url("https://picsum.photos/1000");
+    height: calc(100vh - 60px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.loginForm{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.loginFormGroup{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+}
+.loginFormGroup span{
+    margin-bottom: 5px;
+}
+.loginFormGroup input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.alterBtn {
+    padding: 7px 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0;
+    right: 3px;
+}
+.loginBtn {
+    padding: 7px 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}

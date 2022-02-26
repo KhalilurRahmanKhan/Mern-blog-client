@@ -1,0 +1,42 @@
+.post{
+    flex: 9;
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+.wrapper{
+    width: 31%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    
+}
+.wrapper p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    text-align: justify;
+}
+.postImg{
+    width: 80%;
+    height: 200px;
+    border-radius: 10px;
+}
+.categoryBox ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+.categoryBox li{
+    margin: 5px;
+    color: rgb(179, 173, 165);
+}
+.timeBox{
+    color: rgb(167, 190, 190);
+    margin: 5px;
+
+}
